@@ -19,7 +19,7 @@ const Home: NextPage = () => {
       <div className="relative">
         <div className="absolute top-1/3 right-0 left-0 text-center">
           <h1
-            className="font-bold text-3xl sm:text-4xl md:text-5xl lg:text-7xl xl:text-8xl"
+            className="font-bold text-4xl md:text-5xl lg:text-7xl xl:text-8xl"
             style={{ textShadow: "10px 5px 30px #bd8d4b" }}
           >
             The Round Table
@@ -56,7 +56,10 @@ const Home: NextPage = () => {
               </div>
               <div className="col-span-2 md:col-span-1 relative hidden md:block">
                 <div className="absolute -top-24 right-7">
-                  <img src="/assets/img/img-9.png" />
+                  <img
+                    className="hover:saturate-150 duration-200 transition-all ease-in-out"
+                    src="/assets/img/img-9.png"
+                  />
                 </div>
               </div>
             </div>
@@ -76,7 +79,10 @@ const Home: NextPage = () => {
               <div className="grid grid-cols-2 gap-4 text-center md:text-left mb-0 md:mb-24">
                 <div className="col-span-2 md:col-span-1 relative hidden md:block">
                   <div className="absolute -top-40 left-7">
-                    <img src="/assets/img/bg-1-removebg-preview.png" />
+                    <img
+                      src="/assets/img/bg-1-removebg-preview.png"
+                      className="hover:saturate-150 duration-200 transition-all ease-in-out"
+                    />
                   </div>
                 </div>
                 <div className="col-span-2 md:col-span-1 text-center md:text-right">
