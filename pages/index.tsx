@@ -1,10 +1,11 @@
-import Container from "../components/_Layout/Container";
-import Head from "next/head";
-import React from "react";
+import CarouselCoverflow from '../components/_Layout/CarouselCoverflow';
+import Container from '../components/_Layout/Container';
+import Head from 'next/head';
+import Link from 'next/link';
+import React from 'react';
+import { routes } from '../routes';
 import type { NextPage } from "next";
-import Link from "next/link";
-import { routes } from "../routes";
-import CarouselCoverflow from "../components/_Layout/CarouselCoverflow";
+
 const Home: NextPage = () => {
   return (
     <>
@@ -16,6 +17,7 @@ const Home: NextPage = () => {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
       <div className="relative">
         <div className="absolute top-1/3 right-0 left-0 text-center">
           <h1
@@ -25,7 +27,322 @@ const Home: NextPage = () => {
             The Round Table
           </h1>
         </div>
-        <img src="/assets/img/hero.jpeg"></img>
+        <div>
+          <img
+            className="w-full absolute bottom-0 z-10"
+            src="/assets/img/top_light.png"
+          ></img>
+        </div>
+
+        <div className="hero-container">
+          <img className="hero-background" src="/assets/img/hero.jpg" />
+          <h1
+            className="hero-message font-bold text-4xl md:text-5xl lg:text-7xl xl:text-8xl"
+            style={{ textShadow: "10px 5px 30px #bd8d4b" }}
+          >
+            The Round Table
+          </h1>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+          <div className="circle-container">
+            <div className="circle"></div>
+          </div>
+        </div>
       </div>
       <div className="bg-cream-light">
         <Container>
@@ -57,8 +374,8 @@ const Home: NextPage = () => {
               <div className="col-span-2 md:col-span-1 relative hidden md:block">
                 <div className="absolute -top-24 right-7">
                   <img
+                    src="/assets/img/horse.png"
                     className="hover:saturate-150 duration-200 transition-all ease-in-out"
-                    src="/assets/img/img-9.png"
                   />
                 </div>
               </div>
@@ -80,7 +397,7 @@ const Home: NextPage = () => {
                 <div className="col-span-2 md:col-span-1 relative hidden md:block">
                   <div className="absolute -top-40 left-7">
                     <img
-                      src="/assets/img/bg-1-removebg-preview.png"
+                      src="/assets/img/castel.png"
                       className="hover:saturate-150 duration-200 transition-all ease-in-out"
                     />
                   </div>
