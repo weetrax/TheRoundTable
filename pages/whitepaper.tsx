@@ -51,7 +51,7 @@ const WhitepaperPage: NextPage = () => {
               </ul>
               <img
                 className="w-full max-w-4xl"
-                src="/assets/img/whitepaper-nft.png"
+                src="/assets/img/whitepaper-nft2.png"
               ></img>
             </div>
           </div>
