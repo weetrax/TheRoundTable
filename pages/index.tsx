@@ -1,9 +1,9 @@
-import CarouselCoverflow from '../components/_Layout/CarouselCoverflow';
-import Container from '../components/_Layout/Container';
-import Head from 'next/head';
-import Link from 'next/link';
-import React from 'react';
-import { routes } from '../routes';
+import CarouselCoverflow from "../components/_Layout/CarouselCoverflow";
+import Container from "../components/_Layout/Container";
+import Head from "next/head";
+import Link from "next/link";
+import React from "react";
+import { routes } from "../routes";
 import type { NextPage } from "next";
 
 const Home: NextPage = () => {
@@ -29,7 +29,7 @@ const Home: NextPage = () => {
         </div>
         <div>
           <img
-            className="w-full absolute bottom-0 z-10"
+            className="w-full absolute -bottom-2 z-10"
             src="/assets/img/top_light.png"
           ></img>
         </div>
@@ -348,20 +348,21 @@ const Home: NextPage = () => {
         <Container>
           <div className="py-16 text-black mb-16">
             <div className=" text-center md:text-left">
-              <p className="italic text-primary-500">Whitelist</p>
+              <p className="italic text-primary-500">Passive incomes</p>
               <div className="text-3xl font-bold mb-12">
-                Get <span className="text-primary-500">white listed</span>{" "}
-                without pain
+                <span className="text-primary-500">Earn</span> passive incomes
+                with your NFT
               </div>
             </div>
             <div className="grid grid-cols-2 gap-4 text-center md:text-left mb-0 md:mb-24">
-              <div className="col-span-2 md:col-span-1">
+              <div className="col-span-2 md:col-span-1 text-center md:text-left">
                 <div className="h-full flex flex-col justify-between">
                   <div className="text-xl">
                     <p className="mb-4">
-                      The Round Table NFT will help you get white listed for NFT
-                      mints and token IDOs. The time of spending hours hunting
-                      white lists has come to an end.
+                      Using different mechanisms, you will be able to{" "}
+                      <b>earn passive incomes.</b> The approach used combines
+                      different risk levels to optimize the return on investment
+                      and reward our NFT holders.
                     </p>
                     <Link href={routes.whitepaper}>
                       <a className="inline-flex justify-center rounded bg-primary-500 px-4 py-2 text-sm font-medium text-white hover:bg-primary-400">
@@ -387,10 +388,9 @@ const Home: NextPage = () => {
           <Container>
             <div className="py-16 text-black">
               <div className="text-center md:text-right">
-                <p className="italic text-primary-500">Passive incomes</p>
+                <p className="italic text-primary-500">Take a seat</p>
                 <div className="text-3xl font-bold mb-12 w-full md:w-1/2 ml-auto">
-                  <span className="text-primary-500">Earn</span> passive incomes
-                  with your NFT
+                  <span className="text-primary-500">Join</span> us
                 </div>
               </div>
               <div className="grid grid-cols-2 gap-4 text-center md:text-left mb-0 md:mb-24">
@@ -406,10 +406,20 @@ const Home: NextPage = () => {
                   <div className="h-full flex flex-col justify-between">
                     <div className="text-xl">
                       <p className="mb-4">
-                        Using different mechanisms, you will be able to earn
-                        passive incomes. The approach used combines different
-                        risk levels to optimize the return on investment and
-                        reward our NFT holders.
+                        <b>Excalibur</b>, the legendary sword, has just been
+                        pulled from the rock by King Arthur. Following the
+                        advice of the lady of the lake, he wants to build{" "}
+                        <b>The Round Table</b> in order to organize the quest
+                        for the Holy Grail. To do so, he needs to recruit the
+                        most valiant knights of the kingdom to join this
+                        prestigious circle.{" "}
+                        <b>
+                          Be careful, there will only be 500 seats to become a
+                          knight of the round table.
+                        </b>{" "}
+                        As a knight, you will be able to benefit from
+                        advantages, passive incomes and also take part in the
+                        important decisions of the community.
                       </p>
                       <Link href={routes.whitepaper}>
                         <a className="inline-flex justify-center rounded bg-primary-500 px-4 py-2 text-sm font-medium text-white hover:bg-primary-400">
@@ -437,23 +447,23 @@ const Home: NextPage = () => {
               items={[
                 <img
                   key={"carousel-img-1"}
-                  className="rounded blur-sm"
-                  src="/assets/img/team/team-1.jpeg"
+                  className="rounded"
+                  src="/assets/img/nft/nft1.png"
                 />,
                 <img
                   key={"carousel-img-2"}
-                  className="rounded blur-sm"
-                  src="/assets/img/team/team-2.jpeg"
+                  className="rounded"
+                  src="/assets/img/nft/nft2.png"
                 />,
                 <img
                   key={"carousel-img-3"}
-                  className="rounded blur-sm"
-                  src="/assets/img/team/team-3.jpeg"
+                  className="rounded"
+                  src="/assets/img/nft/nft3.png"
                 />,
                 <img
                   key={"carousel-img-4"}
-                  className="rounded blur-sm"
-                  src="/assets/img/team/team-4.jpeg"
+                  className="rounded"
+                  src="/assets/img/nft/nft4.png"
                 />,
               ]}
             />

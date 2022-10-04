@@ -27,7 +27,7 @@ const WhitepaperPage: NextPage = () => {
               <div className="flex flex-col sm:flex-row justify-center items-center sm:items-start text-center sm:text-left gap-2">
                 <img
                   className="w-44 h-44 rounded"
-                  src="/assets/img/team/team-1.jpeg"
+                  src="/assets/img/nft/nft3.png"
                 ></img>
                 <div>
                   <div className="text-2xl text-primary-500 font-semibold mb-4">
@@ -46,7 +46,7 @@ const WhitepaperPage: NextPage = () => {
               <div className="flex flex-col sm:flex-row justify-center items-center sm:items-start text-center sm:text-left gap-2">
                 <img
                   className="w-44 h-44 rounded"
-                  src="/assets/img/team/team-2.jpeg"
+                  src="/assets/img/nft/nft4.png"
                 ></img>
                 <div>
                   <div className="text-2xl text-primary-500 font-semibold mb-4">

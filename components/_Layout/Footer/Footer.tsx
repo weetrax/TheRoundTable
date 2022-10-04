@@ -31,7 +31,7 @@ const Footer: React.FC<FooterProps> = () => {
               Community App
             </p>
             <a
-              href="https://twitter.com/ElrondVIP"
+              href="https://twitter.com/TheRound_Table_"
               rel="noreferrer"
               className="flex justify-center hover:text-primary-500 ease-in-out transition-colors duration-200"
               target={"_blank"}

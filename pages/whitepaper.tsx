@@ -2,9 +2,6 @@ import Container from "../components/_Layout/Container";
 import Head from "next/head";
 import React from "react";
 import type { NextPage } from "next";
-import Link from "next/link";
-import { routes } from "../routes";
-import CarouselCoverflow from "../components/_Layout/CarouselCoverflow";
 
 const WhitepaperPage: NextPage = () => {
   return (
@@ -23,36 +20,128 @@ const WhitepaperPage: NextPage = () => {
             <div className=" text-center md:text-left">
               <p className="italic text-primary-500">Whitepaper</p>
               <div className="text-3xl font-bold mb-12">
-                <span className="text-primary-500">Understanding</span> the
-                project
+                <span className="text-primary-500">The story</span> of the round
+                table
               </div>
             </div>
-            <p>
-              The Round Table is a project aiming to bring exclusive benefits to
-              Elrond lovers. Holding The Round Table NFTs, you will be eligible
-              to have access to white lists for token presales, NFT mints,
-              real-life events and much more. Also, holding a The Round Table
-              NFT will make you a member of the DAO and thus will give you
-              passive incomes through different mechanisms. The project will
-              also promote interactions and collaborations with other project to
-              strengthen the bounds in the Elrond ecosystem.
+            <p className="mb-6">
+              This story takes place in Camelot where King Arthur is ruling his
+              kingdom together with his knights of The Round Table. This project
+              gives you the amazing opportunity to join the round table and
+              become a knight. King Arthur wants to travel around the world to
+              find the holy grail, the most important quest of his life. The
+              king needs you, knight of the round table, to join him in this
+              journey and maybe, find some treasures along the way.
             </p>
+            <p className="mb-6">
+              As a knight of the round table, you will be eligible to obtain
+              rewards, get access to white lists for token presales, NFT mints,
+              specials events and much more. As you all know, knights are the
+              main advisors of the king and thus, will be able to have a sit at
+              the royal councils in which many important decisions will be made.
+            </p>
+            <p className="mb-6">
+              Finally, along the journey, King Arthur wants to make alliances in
+              order to make the kingdom stronger and ready in the event of an
+              attack, therefore, this project will aim to partner with other
+              projects to strengthen the bounds within the Elrond ecosystem.
+            </p>
+            <p className="mb-6">
+              The biggest aim of the Round Table, is to make profits and share
+              them between all knights of the Round Table. You become a knight
+              by holding an NFT from The Round Table. There are only 500 NFT
+              available for you to take part to the Round Table.
+            </p>
+            <img className="w-full max-w-4xl" src="/assets/img/s1.png"></img>
           </div>
           <div className="text-black mb-16">
             <div className=" text-center md:text-left">
               <div className="text-3xl font-bold mb-12">
-                The Round Table <span className="text-primary-500">NFTs</span>
+                <span className="text-primary-500">Where</span> do these profits
+                come from?
               </div>
             </div>
             <div className="">
-              <ul className="list-disc list-inside mb-4">
-                <li>Supply: 500</li>
-                <li>Main benefits:</li>
+              <ul className="list-disc list-inside mb-4 flex flex-col gap-6">
+                <li>
+                  A first alliance will be made with JEXChange and 20% of the
+                  treasury of Camelot will be used to buy and stake $JEX token.
+                  All rewards will be distributed to the NFT holders.{" "}
+                </li>
+                <li>
+                  The main source of income of the project is done through an
+                  investment bag that represents 60% of the treasury. These 60%
+                  will be invested in various projects from the Elrond
+                  ecosystem. The projects will be chosen by a vote of the royal
+                  council. This way, YOU, knights of the round table, are
+                  empowered to choose where the money goes. 50% of the benefits
+                  of these investments will go to the NFT holders, 35% will go
+                  to the investment back to make it grow, 5% will go to the
+                  team.
+                </li>
+                <li>
+                  Finally, to secure a part of the treasury, 10% will be staked
+                  on Maiar. All rewards will be used to increase the treasury.
+                </li>
               </ul>
-              <img
-                className="w-full max-w-4xl"
-                src="/assets/img/whitepaper-nft2.png"
-              ></img>
+              <p>
+                In addition, 10% of the amount collected during the mint will be
+                used to remunerate the team and to cover operating costs
+              </p>
+              <img className="w-full max-w-4xl" src="/assets/img/s2.png"></img>
+              <p>
+                NFT Holders will be able to claim their rewards periodically
+                once the amount becomes high enough.
+              </p>
+            </div>
+          </div>
+          <div className="text-black mb-16">
+            <div className=" text-center md:text-left">
+              <div className="text-3xl font-bold mb-12">
+                The Round Table <span className="text-primary-500">NFT</span>
+              </div>
+            </div>
+            <div className="mb-12">
+              <p className="mb-6">
+                Benefits and rewards will be split equally among the NFT
+                holders. However, within the round table, His Majesty King
+                Arthur will get 5X more rewards as he is the king. Also, King
+                Arthur likes to have a very close advisor circle, these 9
+                special knights will get 3X more rewards than the other knights.
+              </p>
+              <p className="mb-6">
+                This means that the rewards will be split into 490 (500 – 10
+                special NFTs) + 5 (5 parts for the King) + 9* 3 (9 times 3 parts
+                for the special knights) = 522 equal parts.
+              </p>
+              <ul className="list-disc list-inside mb-4 flex flex-col gap-6">
+                <li>King Arthur will get 5/522 of the rewards</li>
+                <li>The special knights will get 3/522 of the rewards</li>
+                <li>Regular knights will get 1/522 of the rewards</li>
+              </ul>
+              <p>
+                Let’s say that you hold 3 regular knight NFTs, you will get 3
+                shares, or 3/522 of the rewards.
+              </p>
+            </div>
+            <div>
+              <p className="mb-6">
+                The mint price of each NFT will be decided in agreement with
+                people being the most involved in the project. This, in order to
+                determine the right balance between the entry price and the
+                investment bag available. Obviously, the higher the price, the
+                more we can invest and therefore, the faster the rewards will
+                increase.
+              </p>
+              <p className="mb-6">
+                Royalties for the reseale of the NFT will be set at 5% and will
+                be entierely redistributed for our Holders !
+              </p>
+              <p className="mb-6">
+                As a Round Table community, we will make sure to make the best
+                decisions to make the treasury growth and thus rewards our
+                holders.
+              </p>
             </div>
           </div>
         </Container>
@@ -62,119 +151,54 @@ const WhitepaperPage: NextPage = () => {
             <div className="text-black mb-16 pt-16">
               <div className=" text-center md:text-left">
                 <div className="text-3xl font-bold mb-12">
-                  <span className="text-primary-500">Economy </span>model
+                  <span className="text-primary-500">The Royal </span>Council
                 </div>
               </div>
               <p className="mb-6">
-                The Round Table will offer the possibility to access exclusive
-                benefits such as white lists for both NFT mints and token sales,
-                special goodies or NFT/items with partners, access to special
-                events, etc. Each time benefits are negotiated, 50% of them will
-                be randomly distributed to NFT holders.
+                As a Knight of the Round Table, you will be sitting at the Royal
+                Council. You will be empowered to vote on a large number of
+                decisions. For example, when a new project starts on the Elrond
+                blockchain, whether it's an NFT project or a token-related
+                project, holders will be able to vote to determine whether or
+                not we should invest in it. If so, we will invest a maximum of
+                1/20th of the treasury.
               </p>
               <p className="mb-6">
-                Let’s take an example: if the team obtains 100 white lists for a
-                given NFT project, 50 VIP NFT holders will be randomly given a
-                white list, meaning that 10% of the holders will be white
-                listed. However, to encourage the use of the white lists, we
-                plan to include votes in the DAO to create short lists of VIP
-                NFT holders being interested in the project for which the white
-                lists were obtained. This way, the NFT project knows that people
-                will actually mint their NFTs and on our side, we know that
-                people who will receive these white lists will be interested in
-                the project. We strongly want to avoid situations where people
-                who are not interested in the project get a white list and where
-                people who actually want to mint do not get one.
+                Despite you can hold several NFTs, you will only get one vote
+                per holder address as we do not want whales to influence too
+                much the direction of the project.
               </p>
               <p className="mb-6">
-                Once the distribution to NFT holders is done, the 50% remaining
-                items will be put for sale to everyone (meaning not only NFT
-                holders). These items will be purchased using our native token
-                $Graal. Note: since we want to delight our NFT holders, they
-                will sort of get a discount if they want to buy the item since
-                50% of the sales benefits will be redistributed to the VIP NFT
-                holders.
+                he council will also have a voice about taking profits for the
+                different projects in which we invested. However, these
+                decisions might require a certain speed of execution depending
+                on market conditions. In this case, the team will manage these
+                quick moves to avoid losses.
               </p>
               <p className="mb-6">
-                For example: imagine you can buy a white list for a token
-                pre-sale at 100 $Graal, 100 slots are available for sale. If
-                everything is sold out, it makes a total of 10 000 $Graal for
-                the sale. 50% of which, will be redistributed to the VIP NFT
-                holders. Thus, 5000 $Graal will be distributed to our 500 VIP
-                NFT holders. This means that each VIP NFT holder will receive 10
-                $Graal and thus will finally get that white list access 90
-                $Graal instead of 100 $Graal.
+                Holders will also be able to propose projects to invest in.
+                These projects will be reviewed by the team, and submitted to
+                the vote of the royal council if they are considered
+                interesting.
               </p>
-              <img
-                className="w-full max-w-4xl"
-                src="/assets/img/whitepaper-economy.png"
-              ></img>
             </div>
             <div className="text-black pb-8">
               <div className=" text-center md:text-left">
                 <div className="text-3xl font-bold mb-12">
-                  <span className="text-primary-500">DAO </span>membership
+                  Others <span className="text-primary-500">benefits</span>
                 </div>
               </div>
               <p className="mb-6">
-                Holding a The Round Table NFT will give you a voice in the DAO.
-                This means that holders will be able to vote for the potential
-                partnerships they want the team to work on, as well as
-                participate in the decision being made for the project.
+                In addition to the rewards from the investments, you will have
+                access to giveaways on our discord. As a project, we will obtain
+                WL for NFT or token sales. These WL will be partly used by The
+                Round Table to buy these NFTs or tokens, at a cheaper price. The
+                other part will be offered to our NFT holders. We have the
+                ambition to establish partnerships with other projects on Elrond
+                and, why not, on other blockchains. We will of course
+                participate in the Elrond launchpads. For these launchpads,
+                profits made will be redistributed to the holders.
               </p>
-              <p className="mb-6">
-                Using the DAO votes, NFT holders will vote and thus indicate if
-                they are interested in buying a token or minting a project. This
-                way, we reduce the number of participants in the vote to only
-                the holders interested in the projects. Of course, you might
-                think that everybody will want to be white listed by default and
-                that it wil bias the process. We thought about it. We have
-                implemented a mechanism that will penalize people having
-                obtained a white list and who did not buy the token or mint the
-                NFT. These people will not have any possibility to get white
-                listed for the next 3 projects offered by The Round Table. This
-                will prevent holders who are not – really – interested in the
-                project to “steal” a white list to someone else.
-              </p>
-              <p className="mb-6">
-                In contrast, to thank our serial minters/buyers, we will get a
-                list of all VIP NFT holders having minted NFTs or bought tokens
-                of partners projects, and we will automatically provide a white
-                list to these holders the next time they place a vote in the DAO
-                saying they are interested in a project.
-              </p>
-              <p className="mb-6">
-                Also, being part of the DAO will provide you with passive
-                incomes coming from different sources:
-              </p>
-              <ul className="list-disc list-inside mb-4">
-                <li className="mb-2">
-                  First, 50% of the benefits (not the fees) of the
-                  WL/goodies/event sales will be directly distributed to the NFT
-                  holders.
-                </li>
-                <li className="mb-2">
-                  Second, 20% of the treasury will be used to create an
-                  investment bag to invest in different projects of the Elrond
-                  ecosystem. The DAO votes will decide on which projects to
-                  invest. From the benefits made, 50% will be redistributed to
-                  the VIP NFT holders, the other 50% will be added to the bag of
-                  investment. 60% of the treasury will be staked in EGLD staking
-                  at around 12% APR and all the rewards will be injected back in
-                  the investment bag to make it grow. This is also to secure a
-                  large part of the treasury in the event of the failure of a
-                  project in which we would have invested.
-                </li>
-                <li>
-                  Third: 20% of the treasury will be used to stake JEX tokens on
-                  the JEXChange. The rewards will all be redistributed to NFT
-                  holders.
-                </li>
-              </ul>
-              <img
-                className="w-full max-w-4xl mt-8"
-                src="/assets/img/whitepaper-dao.png"
-              ></img>
             </div>
           </Container>
         </div>
@@ -184,41 +208,19 @@ const WhitepaperPage: NextPage = () => {
             <div className="py-16 text-black">
               <div className=" text-center md:text-left">
                 <div className="text-3xl font-bold mb-12">
-                  <span className="text-primary-500">$Graal </span>
-                  tokenomics
+                  <span className="text-primary-500">Conclusion</span>
                 </div>
               </div>
-              <ul className="list-disc list-inside mb-4">
-                <li className="mb-2">Total supply: 20,000,000 $Graal</li>
-                <li className="mb-2">
-                  Token repartition:
-                  <ul className="pl-8 list-disc list-inside">
-                    <li>Team: 10%</li>
-                    <li>Treasury: 40%</li>
-                    <li>Community: 40%</li>
-                    <li>Marketing: 10%</li>
-                  </ul>
-                </li>
-                <li>
-                  Note: and airdrop of $Graal will be distributed to all 500 VIP
-                  NFT holders. This will allow them to buy items for which they
-                  were not selected during the drop for NFT holders.
-                </li>
-                <li>
-                  Note bis: $Graal token IDO will take place on the JEXChange.
-                </li>
-              </ul>
-            </div>
-            <div className="pb-16 text-black">
-              <div className=" text-center md:text-left">
-                <div className="text-3xl font-bold mb-12">
-                  <span className="text-primary-500">Roadmap </span>
-                </div>
-              </div>
-              <img
-                className="w-full max-w-4xl mt-8"
-                src="/assets/img/roadmap.png"
-              ></img>
+              <p>
+                The Round Table has a clear and simple vision. We do not need to
+                create a very complicated mechanics. The project is all about
+                investing as a community and providing recurring rewards. We
+                also do not need a roadmap that promises unachievable things.
+                Everything is there, ready. The project will evolve according to
+                the evolution of its budget and in line with the desires of the
+                holders. We do not promise anything unattainable, but we have no
+                limits. Our motto: Community, Money & Fun !
+              </p>
             </div>
           </Container>
         </div>
