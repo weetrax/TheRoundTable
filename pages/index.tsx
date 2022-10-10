@@ -358,7 +358,7 @@ const Home: NextPage = () => {
               <div className="col-span-2 md:col-span-1 text-center md:text-left">
                 <div className="h-full flex flex-col justify-between">
                   <div className="text-xl">
-                    <p className="mb-4">
+                    <p className="mb-4 text-justify">
                       Using different mechanisms, you will be able to{" "}
                       <b>earn passive incomes.</b> The approach used combines
                       different risk levels to optimize the return on investment
@@ -405,7 +405,7 @@ const Home: NextPage = () => {
                 <div className="col-span-2 md:col-span-1 text-center md:text-right">
                   <div className="h-full flex flex-col justify-between">
                     <div className="text-xl">
-                      <p className="mb-4">
+                      <p className="mb-4 text-justify">
                         <b>Excalibur</b>, the legendary sword, has just been
                         pulled from the rock by King Arthur. Following the
                         advice of the lady of the lake, he wants to build{" "}
@@ -477,30 +477,31 @@ const Home: NextPage = () => {
             </div>
             <div className="flex justify-center items-end gap-12">
               <div>
-                <img
-                  className="max-h-40"
-                  src="/assets/img/partners/wwwine.png"
-                ></img>
+
                 <a
                   href="https://www.wwwine.io/"
                   target={"_blank"}
                   rel="noreferrer"
-                  className="mt-2 block text-center text-primary-500 hover:text-primary-400 transition-colors duration-200 ease-in-out text-2xl font-bold"
+                  className="group mt-2 block text-center text-primary-500 hover:text-primary-400 transition-colors duration-200 ease-in-out text-2xl font-bold"
                 >
+                  <img
+                    className="max-h-40 group-hover:-translate-y-2 duration-200 transition-transform ease-in-out"
+                    src="/assets/img/partners/wwwine.png"
+                  ></img>
                   wwwine
                 </a>
               </div>
               <div>
-                <img
-                  className="max-h-40"
-                  src="/assets/img/partners/jex.svg"
-                ></img>
                 <a
                   href="https://jexchange.io/"
                   target={"_blank"}
                   rel="noreferrer"
-                  className="mt-2 block text-center text-primary-500 hover:text-primary-400 transition-colors duration-200 ease-in-out text-2xl font-bold"
+                  className="group mt-2 block text-center text-primary-500 hover:text-primary-400 transition-colors duration-200 ease-in-out text-2xl font-bold"
                 >
+                  <img
+                    className="max-h-40 group-hover:-translate-y-2 duration-200 transition-transform ease-in-out"
+                    src="/assets/img/partners/jex.svg"
+                  ></img>
                   Jexchange
                 </a>
               </div>

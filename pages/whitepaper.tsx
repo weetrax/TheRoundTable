@@ -14,7 +14,7 @@ const WhitepaperPage: NextPage = () => {
         />{" "}
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="bg-cream-light text-lg">
+      <div className="bg-cream-light text-lg text-justify">
         <Container>
           <div className="py-16 text-black">
             <div className=" text-center md:text-left">
@@ -169,7 +169,7 @@ const WhitepaperPage: NextPage = () => {
                 much the direction of the project.
               </p>
               <p className="mb-6">
-                he council will also have a voice about taking profits for the
+                The council will also have a voice about taking profits for the
                 different projects in which we invested. However, these
                 decisions might require a certain speed of execution depending
                 on market conditions. In this case, the team will manage these

@@ -33,7 +33,7 @@ const WhitepaperPage: NextPage = () => {
                   <div className="text-2xl text-primary-500 font-semibold mb-4">
                     Stéphane (@Didoudidoute):
                   </div>
-                  <p>
+                  <p className="text-justify">
                     After discovering the world of cryptocurrencies at the end
                     of 2020, Stéphane quickly focused his interests on Elrond.
                     The Elrond community has a lot to do with it because the
@@ -52,16 +52,9 @@ const WhitepaperPage: NextPage = () => {
                   <div className="text-2xl text-primary-500 font-semibold mb-4">
                     Florian (@Billythekid945):
                   </div>
-                  <p>
-                    Working as a technical instructor for Amazon Web Services,
-                    passionate about cryptocurrencies, and currently involved in
-                    other crypto projects (i.e: Wwwine.io), Florian quickly
-                    realized the pain of following newly created projects and
-                    hunting white lists. Moreover, the aspect of creating an NFT
-                    that would generate passive incomes really matched with his
-                    view of what NFTs should be. Therefore, he will use his
-                    experience both in tech and crypto as well as his network to
-                    make this happen.
+                  <p className="text-justify">
+                    Working as a technical instructor for Amazon Web Services and passionate about cryptocurrencies, Florian decided to take an active part to the Elrond ecosystem by joining crypto projects (i.e: Wwwine.io and Wwwatch.io).
+                    The idea of creating an NFT that would generate passive incomes really matched his view of what NFTs should be. Therefore, he will use his experience both in tech and crypto as well as his network to make this happen for the knights of The Round Table.
                   </p>
                 </div>
               </div>
