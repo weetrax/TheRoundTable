@@ -53,8 +53,35 @@ const WhitepaperPage: NextPage = () => {
                     Florian (@Billythekid945):
                   </div>
                   <p className="text-justify">
-                    Working as a technical instructor for Amazon Web Services and passionate about cryptocurrencies, Florian decided to take an active part to the Elrond ecosystem by joining crypto projects (i.e: Wwwine.io and Wwwatch.io).
-                    The idea of creating an NFT that would generate passive incomes really matched his view of what NFTs should be. Therefore, he will use his experience both in tech and crypto as well as his network to make this happen for the knights of The Round Table.
+                    Working as a technical instructor for Amazon Web Services
+                    and passionate about cryptocurrencies, Florian decided to
+                    take an active part to the Elrond ecosystem by joining
+                    crypto projects (i.e: Wwwine.io and Wwwatch.io). The idea of
+                    creating an NFT that would generate passive incomes really
+                    matched his view of what NFTs should be. Therefore, he will
+                    use his experience both in tech and crypto as well as his
+                    network to make this happen for the knights of The Round
+                    Table.
+                  </p>
+                </div>
+              </div>
+              <div className="flex flex-col sm:flex-row justify-center items-center sm:items-start text-center sm:text-left gap-2">
+                <img
+                  className="w-44 h-44 rounded"
+                  src="/assets/img/nft/nft1.png"
+                ></img>
+                <div>
+                  <div className="text-2xl text-primary-500 font-semibold mb-4">
+                    Benoit (@Gerhun):
+                  </div>
+                  <p className="text-justify">
+                    Recently graduated from a master's degree in computer
+                    science and business management, Benoit started exploring
+                    Elrond possibilities. He is fond of technology and is
+                    looking forward to getting as many skills as he can. He is
+                    currently working on building up his knowledge about Elrond
+                    Smart Contracts. Which will be key for our DAO system and
+                    reward mechanism.
                   </p>
                 </div>
               </div>
