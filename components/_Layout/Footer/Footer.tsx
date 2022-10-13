@@ -30,16 +30,28 @@ const Footer: React.FC<FooterProps> = () => {
               </a>{" "}
               Community App
             </p>
-            <a
-              href="https://twitter.com/TheRound_Table_"
-              rel="noreferrer"
-              className="flex justify-center hover:text-primary-500 ease-in-out transition-colors duration-200"
-              target={"_blank"}
-            >
-              <i>
-                <FontAwesomeIcon className="w-5 h-5" icon={faTwitter} />
-              </i>
-            </a>
+            <div className="flex gap-4 justify-center items-center mt-4">
+              <a
+                href="https://twitter.com/TheRound_Table_"
+                rel="noreferrer"
+                className="flex justify-center hover:text-primary-500 ease-in-out transition-colors duration-200"
+                target={"_blank"}
+              >
+                <i>
+                  <FontAwesomeIcon className="w-5 h-5" icon={faTwitter} />
+                </i>
+              </a>
+              <a
+                href="https://dsc.gg/TheRoundTable"
+                rel="noreferrer"
+                className="flex justify-center hover:text-primary-500 ease-in-out transition-colors duration-200"
+                target={"_blank"}
+              >
+                <i>
+                  <FontAwesomeIcon className="w-5 h-5" icon={faDiscord} />
+                </i>
+              </a>
+            </div>
           </div>
           <div></div>
         </div>

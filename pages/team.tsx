@@ -80,8 +80,8 @@ const WhitepaperPage: NextPage = () => {
                     Elrond possibilities. He is fond of technology and is
                     looking forward to getting as many skills as he can. He is
                     currently working on building up his knowledge about Elrond
-                    Smart Contracts. Which will be key for our DAO system and
-                    reward mechanism.
+                    Smart Contracts. Which will be key for our system and reward
+                    mechanism.
                   </p>
                 </div>
               </div>

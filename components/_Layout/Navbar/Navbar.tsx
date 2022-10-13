@@ -7,6 +7,8 @@ import { Disclosure } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
 import { routes } from "../../../routes";
 import { useRouter } from "next/router";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faDiscord, faTwitter } from "@fortawesome/free-brands-svg-icons";
 
 type NavbarProps = {
   //
@@ -55,31 +57,61 @@ const Navbar: React.FC<NavbarProps> = () => {
                     alt="Workflow"
                   />
                 </div>
-                <div className="hidden sm:block sm:ml-6">
-                  <div className="flex space-x-4">
-                    {navigation.map((item) => (
-                      <Link href={item.href} key={item.name}>
-                        <a
-                          className={classNames(
-                            router.pathname == item.href
-                              ? "text-primary-500"
-                              : "hover:bg-primary-500 rounded duration-200 ease-in-out transition-all",
-                            "px-3 py-2 text-sm font-medium"
-                          )}
-                          aria-current={
-                            router.pathname == item.href ? "page" : undefined
-                          }
-                        >
-                          {item.name}
-                        </a>
-                      </Link>
-                    ))}
-                    <a
-                      className="inline-flex justify-center rounded bg-primary-500 px-4 py-2 text-sm font-medium text-white hover:bg-primary-400"
-                      href="#"
-                    >
-                      Mint NFT
-                    </a>
+                <div className="hidden sm:block sm:ml-6 w-full">
+                  <div className="flex items-center justify-between space-x-4">
+                    <div>
+                      {navigation.map((item) => (
+                        <Link href={item.href} key={item.name}>
+                          <a
+                            className={classNames(
+                              router.pathname == item.href
+                                ? "text-primary-500"
+                                : "hover:bg-primary-500 rounded duration-200 ease-in-out transition-all",
+                              "px-3 py-2 text-sm font-medium"
+                            )}
+                            aria-current={
+                              router.pathname == item.href ? "page" : undefined
+                            }
+                          >
+                            {item.name}
+                          </a>
+                        </Link>
+                      ))}
+                    </div>
+                    <div className="flex items-center justify-center gap-2">
+                      <a
+                        className="inline-flex justify-center rounded bg-primary-500 px-4 py-2 text-sm font-medium text-white hover:bg-primary-400"
+                        href="#"
+                      >
+                        Mint NFT
+                      </a>
+                      <a
+                        href="https://twitter.com/TheRound_Table_"
+                        rel="noreferrer"
+                        className="flex justify-center hover:text-primary-500 ease-in-out transition-colors duration-200"
+                        target={"_blank"}
+                      >
+                        <i>
+                          <FontAwesomeIcon
+                            className="w-5 h-5"
+                            icon={faTwitter}
+                          />
+                        </i>
+                      </a>
+                      <a
+                        href="https://dsc.gg/TheRoundTable"
+                        rel="noreferrer"
+                        className="flex justify-center hover:text-primary-500 ease-in-out transition-colors duration-200"
+                        target={"_blank"}
+                      >
+                        <i>
+                          <FontAwesomeIcon
+                            className="w-5 h-5"
+                            icon={faDiscord}
+                          />
+                        </i>
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
