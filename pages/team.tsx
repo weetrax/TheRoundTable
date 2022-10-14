@@ -1,6 +1,8 @@
-import Container from "../components/_Layout/Container";
-import Head from "next/head";
-import React from "react";
+import Container from '../components/_Layout/Container';
+import Head from 'next/head';
+import React from 'react';
+import { faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import type { NextPage } from "next";
 
 const WhitepaperPage: NextPage = () => {
@@ -31,7 +33,31 @@ const WhitepaperPage: NextPage = () => {
                 ></img>
                 <div>
                   <div className="text-2xl text-primary-500 font-semibold mb-4">
-                    Stéphane (@Didoudidoute):
+                    Stéphane{" "}
+                    <div className="inline-flex items-center gap-4">
+                      <a
+                        href="https://twitter.com/Didoudidoute"
+                        target={"_blank"}
+                        className="font-bold hover:text-primary-400 ease-in-out transition-colors duration-200"
+                        rel="noreferrer"
+                      >
+                        (@Didoudidoute)
+                      </a>
+                      <a
+                        href="https://twitter.com/Didoudidoute"
+                        rel="noreferrer"
+                        title="Twitter"
+                        className="hover:text-primary-400 ease-in-out transition-colors duration-200"
+                        target={"_blank"}
+                      >
+                        <i>
+                          <FontAwesomeIcon
+                            className="w-5 h-5"
+                            icon={faTwitter}
+                          />
+                        </i>
+                      </a>
+                    </div>
                   </div>
                   <p className="text-justify">
                     After discovering the world of cryptocurrencies at the end
@@ -50,7 +76,31 @@ const WhitepaperPage: NextPage = () => {
                 ></img>
                 <div>
                   <div className="text-2xl text-primary-500 font-semibold mb-4">
-                    Florian (@Billythekid945):
+                    Florian{" "}
+                    <div className="inline-flex items-center gap-4">
+                      <a
+                        href="https://twitter.com/BillythekidEGLD"
+                        target={"_blank"}
+                        className="font-bold hover:text-primary-400 ease-in-out transition-colors duration-200"
+                        rel="noreferrer"
+                      >
+                        (@Billythekid945)
+                      </a>
+                      <a
+                        href="https://twitter.com/BillythekidEGLD"
+                        rel="noreferrer"
+                        title="Twitter"
+                        className="hover:text-primary-400 ease-in-out transition-colors duration-200"
+                        target={"_blank"}
+                      >
+                        <i>
+                          <FontAwesomeIcon
+                            className="w-5 h-5"
+                            icon={faTwitter}
+                          />
+                        </i>
+                      </a>
+                    </div>
                   </div>
                   <p className="text-justify">
                     Working as a technical instructor for Amazon Web Services
@@ -64,6 +114,7 @@ const WhitepaperPage: NextPage = () => {
                     Table.
                   </p>
                 </div>
+
               </div>
               <div className="flex flex-col sm:flex-row justify-center items-center sm:items-start text-center sm:text-left gap-2">
                 <img
@@ -72,7 +123,32 @@ const WhitepaperPage: NextPage = () => {
                 ></img>
                 <div>
                   <div className="text-2xl text-primary-500 font-semibold mb-4">
-                    Benoit (@Gerhun):
+                    Benoit{" "}
+                    <div className="inline-flex items-center gap-4">
+                      <a
+                        /*href="#"
+                        target={"_blank"}*/
+                        className="font-bold hover:text-primary-400 ease-in-out transition-colors duration-200"
+                        rel="noreferrer"
+                      >
+                        (@Gerhun)
+                      </a>
+                      <a
+                        href="#"
+                        rel="noreferrer"
+                        title="Twitter"
+                        className="hidden hover:text-primary-400 ease-in-out transition-colors duration-200"
+                        target={"_blank"}
+                      >
+                        <i>
+                          <FontAwesomeIcon
+                            className="w-5 h-5"
+                            icon={faTwitter}
+                          />
+                        </i>
+                      </a>
+                    </div>
+
                   </div>
                   <p className="text-justify">
                     Recently graduated from a master's degree in computer
