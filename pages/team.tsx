@@ -126,18 +126,18 @@ const WhitepaperPage: NextPage = () => {
                     Benoit{" "}
                     <div className="inline-flex items-center gap-4">
                       <a
-                        /*href="#"
-                        target={"_blank"}*/
+                        href="https://twitter.com/benitothemoon"
+                        target={"_blank"}
                         className="font-bold hover:text-primary-400 ease-in-out transition-colors duration-200"
                         rel="noreferrer"
                       >
                         (@Gerhun)
                       </a>
                       <a
-                        href="#"
+                        href="https://twitter.com/benitothemoon"
                         rel="noreferrer"
                         title="Twitter"
-                        className="hidden hover:text-primary-400 ease-in-out transition-colors duration-200"
+                        className="hover:text-primary-400 ease-in-out transition-colors duration-200"
                         target={"_blank"}
                       >
                         <i>
