@@ -24,8 +24,9 @@ const WhitepaperPage: NextPage = () => {
               </div>
             </div>
             <a
-              href="docs.google.com"
+              href="https://forms.gle/qKGrZbRGoub7nQ689"
               rel="noreferrer"
+              target={"_blank"}
               className="inline-flex justify-center rounded bg-primary-500 px-4 py-2 text-sm font-medium text-white hover:bg-primary-400"
             >
               Contact us
