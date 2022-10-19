@@ -366,7 +366,7 @@ const Home: NextPage = () => {
                     </p>
                     <Link href={routes.whitepaper}>
                       <a className="inline-flex justify-center rounded bg-primary-500 px-4 py-2 text-sm font-medium text-white hover:bg-primary-400">
-                        Read more
+                        Read the Whitepaper (English)
                       </a>
                     </Link>
                   </div>
@@ -423,7 +423,7 @@ const Home: NextPage = () => {
                       </p>
                       <Link href={routes.whitepaper}>
                         <a className="inline-flex justify-center rounded bg-primary-500 px-4 py-2 text-sm font-medium text-white hover:bg-primary-400">
-                          Read more
+                          Read the Whitepaper (English)
                         </a>
                       </Link>
                     </div>

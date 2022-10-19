@@ -1,6 +1,8 @@
-import Container from "../components/_Layout/Container";
-import Head from "next/head";
-import React from "react";
+import Container from '../components/_Layout/Container';
+import Head from 'next/head';
+import Link from 'next/link';
+import React from 'react';
+import { routes } from '../routes';
 import type { NextPage } from "next";
 
 const WhitepaperPage: NextPage = () => {
@@ -17,12 +19,16 @@ const WhitepaperPage: NextPage = () => {
       <div className="bg-cream-light text-lg text-justify">
         <Container>
           <div className="py-16 text-black">
-            <div className=" text-center md:text-left">
+            <div className="text-center md:text-left mb-12">
               <p className="italic text-primary-500">Whitepaper</p>
-              <div className="text-3xl font-bold mb-12">
-                <span className="text-primary-500">The story</span> of the round
-                table
+              <div className="text-3xl font-bold mb-2">
+                <span className="text-primary-500">The story</span> of The Round Table
               </div>
+              <Link href={routes.whitepaperFR}>
+                <a className="inline-flex justify-center rounded bg-primary-500 px-4 py-2 text-sm font-medium text-white hover:bg-primary-400">
+                  Go to French Whitepaper
+                </a>
+              </Link>
             </div>
             <p className="mb-6">
               This story takes place in Camelot where King Arthur is ruling his

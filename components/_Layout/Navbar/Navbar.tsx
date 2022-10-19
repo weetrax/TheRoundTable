@@ -16,7 +16,8 @@ type NavbarProps = {
 
 const navigation = [
   { name: "The Round Table", href: routes.home },
-  { name: "Whitepaper", href: routes.whitepaper },
+  { name: "Whitepaper (EN)", href: routes.whitepaper },
+  { name: "Whitepaper (FR)", href: routes.whitepaperFR },
   { name: "Team", href: routes.team },
   { name: "Contact", href: routes.contact },
 ];
