@@ -1,7 +1,7 @@
 import Container from '../components/_Layout/Container';
 import Head from 'next/head';
 import React from 'react';
-import { faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedinIn, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import type { NextPage } from "next";
 
@@ -57,6 +57,20 @@ const WhitepaperPage: NextPage = () => {
                           />
                         </i>
                       </a>
+                      <a
+                        href="https://www.linkedin.com/in/st%C3%A9phane-dubouis-85659a107/"
+                        rel="noreferrer"
+                        title="LinkedIn"
+                        className="hover:text-primary-400 ease-in-out transition-colors duration-200"
+                        target={"_blank"}
+                      >
+                        <i>
+                          <FontAwesomeIcon
+                            className="w-5 h-5"
+                            icon={faLinkedinIn}
+                          />
+                        </i>
+                      </a>
                     </div>
                   </div>
                   <p className="text-justify">
@@ -97,6 +111,20 @@ const WhitepaperPage: NextPage = () => {
                           <FontAwesomeIcon
                             className="w-5 h-5"
                             icon={faTwitter}
+                          />
+                        </i>
+                      </a>
+                      <a
+                        href="https://www.linkedin.com/in/floriancelli/"
+                        rel="noreferrer"
+                        title="LinkedIn"
+                        className="hover:text-primary-400 ease-in-out transition-colors duration-200"
+                        target={"_blank"}
+                      >
+                        <i>
+                          <FontAwesomeIcon
+                            className="w-5 h-5"
+                            icon={faLinkedinIn}
                           />
                         </i>
                       </a>
@@ -144,6 +172,20 @@ const WhitepaperPage: NextPage = () => {
                           <FontAwesomeIcon
                             className="w-5 h-5"
                             icon={faTwitter}
+                          />
+                        </i>
+                      </a>
+                      <a
+                        href="https://www.linkedin.com/in/benoit-frauly/"
+                        rel="noreferrer"
+                        title="LinkedIn"
+                        className="hover:text-primary-400 ease-in-out transition-colors duration-200"
+                        target={"_blank"}
+                      >
+                        <i>
+                          <FontAwesomeIcon
+                            className="w-5 h-5"
+                            icon={faLinkedinIn}
                           />
                         </i>
                       </a>
