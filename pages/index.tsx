@@ -437,7 +437,7 @@ const Home: NextPage = () => {
         <Container>
           <div className="py-16 text-black">
             <div className="text-center">
-              <p className="italic text-primary-500">sneak peek</p>
+              <p className="italic text-primary-500">Sneak peek</p>
               <div className="text-3xl font-bold mb-12">
                 The Round Table{" "}
                 <span className="text-primary-500">NFT Collection</span>{" "}
