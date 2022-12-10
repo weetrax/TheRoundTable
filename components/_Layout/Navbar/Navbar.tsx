@@ -30,7 +30,7 @@ const Navbar: React.FC<NavbarProps> = () => {
       as="nav"
       className="bg-black backdrop-filter backdrop-blur bg-opacity-70 items-center sticky top-0 shadow-sm z-20"
     >
-      {({ open }) => (
+      {({ open, close }) => (
         <>
           <Container>
             <div className="relative flex items-center justify-between h-16">
@@ -132,6 +132,7 @@ const Navbar: React.FC<NavbarProps> = () => {
                           : "hover:text-primary-500 rounded duration-200 ease-in-out transition-all",
                         "px-3 py-2 text-sm font-medium"
                       )}
+                      onClick={() => close()}
                       aria-current={
                         router.pathname == item.href ? "page" : undefined
                       }
@@ -143,7 +144,8 @@ const Navbar: React.FC<NavbarProps> = () => {
               ))}
               <a
                 className="inline-flex justify-center rounded bg-primary-500 px-4 py-2 text-sm font-medium text-white hover:bg-primary-400"
-                href="#"
+                href="https://www.frameit.gg/marketplace/TRT-956a03/items"
+                target={"_blank"}
               >
                 Mint NFT
               </a>
