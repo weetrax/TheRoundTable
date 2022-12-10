@@ -2,13 +2,13 @@ import classNames from "classnames";
 import Container from "../Container";
 import Link from "next/link";
 import PropTypes from "prop-types";
-import React, { useState } from "react";
+import React from "react";
 import { Disclosure } from "@headlessui/react";
+import { faDiscord, faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
 import { routes } from "../../../routes";
 import { useRouter } from "next/router";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faDiscord, faTwitter } from "@fortawesome/free-brands-svg-icons";
 
 type NavbarProps = {
   //
@@ -24,8 +24,6 @@ const navigation = [
 
 const Navbar: React.FC<NavbarProps> = () => {
   const router = useRouter();
-
-  const [mintText, setMintText] = useState("Mint NFT");
 
   return (
     <Disclosure
@@ -83,12 +81,11 @@ const Navbar: React.FC<NavbarProps> = () => {
                     </div>
                     <div className="flex items-center justify-center gap-2">
                       <a
-                        onMouseOver={() => setMintText("Coming soon")}
-                        onMouseLeave={() => setMintText("Mint NFT")}
                         className="inline-flex justify-center rounded bg-primary-500 px-4 py-2 text-sm font-medium text-white hover:bg-primary-400 transition-all duration-200 ease-in-out"
-                        href="#"
+                        href="https://www.frameit.gg/marketplace/TRT-956a03/items"
+                        target={"_blank"}
                       >
-                        {mintText}
+                        Mint NFT
                       </a>
                       <a
                         href="https://twitter.com/TheRound_Table_"
